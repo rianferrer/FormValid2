@@ -1,4 +1,4 @@
-.box
+/**.box
 {
     border: solid;
     border-width: 10px;
@@ -55,4 +55,26 @@ select
 #reg
 {
     margin-left: 1cm;
+}*/
+
+#box {
+    height: 250px;
+    width: 400px;
+    padding: 15px 30px 10px 30px;
+    background-color: #555555;
+    line-height: 250%;
+    border: 15px solid black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#box input, select {
+    width: 60%;
+    float: right;
+    border-color: rgb(180, 207, 94);
+}
+
+.btn-default {
+    height: 30px;
 }

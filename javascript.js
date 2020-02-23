@@ -1,14 +1,13 @@
-function comparepass()
-{
-        var pass = document.getElementById('inpass').value;
-        var conpass = document.getElementById('conpass').value;
+function comparePwd() {
+        var p1 = document.getElementById("pass").value;
+        var p2 = document.getElementById("conPass").value;
         
-        if (conpass !== pass)
+        if (p2 !== p1)
         {
-                document.getElementById('pass').innerHTML = 'Passwords do not match';
+                document.getElementById("p1").innerHTML = "Passwords do not match";
         }
         else
         {
-                document.getElementById('pass').innerHTML = 'Passwords Match';
+                document.getElementById("p1").innerHTML = 'Passwords match';
         }
 }
